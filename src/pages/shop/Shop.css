@@ -1,0 +1,36 @@
+.product-img {
+  width: 400px;
+}
+
+.products {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.product-price {
+  text-align: center;
+}
+
+.addcartBtn {
+  background: white;
+  border: 1px solid black;
+  color: black;
+  border-radius: 5px;
+  padding: .5rem;
+}
+
+.addcartBtn:hover {
+  transition: 0.5s;
+  background: black;
+  color: white;
+}

@@ -1,0 +1,14 @@
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar{
+  background: black;
+  padding: 1rem 5rem;
+}
+
+.shop, .cart {
+  color: white;
+}
